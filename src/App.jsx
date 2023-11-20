@@ -1,10 +1,13 @@
 
 import { HomePages } from "./pages/HomePages";
+import { ContactPages } from "./pages/ContactPages";
 function App() {
-  return 
+  return (
     <>
-      <HomePages />
-    </>;
+      {/* <HomePages /> */}
+      <ContactPages/>
+    </>
+  )
 }
 
 export default App;
