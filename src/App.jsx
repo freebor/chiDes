@@ -4,11 +4,14 @@ import { HOME, ABOUT, } from "./utilities/routes";
 
 function App() {
   return(
-    <Router>
-      <Routes>
-        <Route path={HOME} element={<HomePages />}/>      
-      </Routes>        
-    </Router>
+    <>
+      <Router>
+        <Routes>
+          <Route path={HOME} element={<HomePages />}/>
+          <Route path={HOME} element={<ContactPages />}/>
+        </Routes>        
+      </Router>
+    </>
   )
 }
 
