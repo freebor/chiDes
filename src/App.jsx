@@ -1,11 +1,16 @@
-
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import { HomePages } from "./pages/HomePages";
-import { ContactPages } from "./pages/ContactPages";
+import { HOME, ABOUT, } from "./utilities/routes";
+
 function App() {
   return(
     <>
-      <HomePages />
-      <ContactPages/>
+      <Router>
+        <Routes>
+          <Route path={HOME} element={<HomePages />}/>
+          <Route path={HOME} element={<ContactPages />}/>
+        </Routes>        
+      </Router>
     </>
   )
 }
