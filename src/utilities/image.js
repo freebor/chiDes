@@ -12,8 +12,18 @@ import editorPickImg2 from "../assets/img/editor-pic2.png"
 import editorPickImg3 from "../assets/img/editor-pic3.png"
 import homeImgBg from "../assets/img/home-bg.png"
 import homeImgBg2 from "../assets/img/home-bg2.png"
+import aboutImg from "../assets/img/aboutBanner.png"
+import teamGroup from "../assets/img/teamGroup.png"
+import blogGroup from "../assets/img/blogGroup.png"
+import desmond from "../assets/img/desmond.jpg"
+import freedom from "../assets/img/freedom.jpg"
 
 export{
+    desmond,
+    freedom,
+    teamGroup,
+    blogGroup,
+    aboutImg,
     blogImg,
     blogImg1,
     blogImg2,
