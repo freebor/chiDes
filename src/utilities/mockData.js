@@ -5,13 +5,13 @@ export const navItemArray = [
     {tab: "Contact Us", href: "#", isActive: false},
 ]
 
-import { FaFacebook, FaTwitter, FaYoutube, FaPinterest } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaYoutube, FaPinterest, FaBehanceSquare  } from "react-icons/fa";
  export const navIcons= [
     {navIcon: FaFacebook, href: "#"},
     {navIcon: FaTwitter, href: "#"},
-    {navIcon: FaYoutube , href: "#"},
+    {navIcon: FaYoutube, href: "#"},
     {navIcon: FaPinterest, href: "#"},
-    {navIcon: FaFacebook, href: "#"}
+    {navIcon: FaBehanceSquare , href: "#"}
  ]
 
 import { blogImg, blogImg1, blogImg2, blogImg3, blogImg4, blogImg5, blogImg6, blogImg7, homeImgBg, homeImgBg2 } from "./image";
@@ -136,4 +136,62 @@ export const footerArray = [
             {link: "Australia", href: "#" },
         ]
     }, 
+]
+
+export const aboutDescription = [
+    {
+        subHead: "Our mision",
+        header: "Creating valuable content for creatives all around the world",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus."
+    },
+    {
+        subHead: "Our Vision",
+        header: "A platform that empowers individuals to improve",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus."
+    },
+] 
+
+import { teamGroup, blogGroup } from "./image";
+export const blogTeamArray = [
+    {
+        image: teamGroup,
+        header: "Our team of creatives",
+        subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+    },
+    {
+        image: blogGroup,
+        header: "Why we started this Blog",
+        subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+    }
+]
+
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import {  freedom, desmond } from "./image.js";
+export const aboutDev =[
+    {
+        image: freedom,
+        header: "Freedom Chisom",
+        subText:"Front-End Developer @Company",
+        colorChange: false,
+        social:[
+            {navIcon: FaFacebook, href: "#"},
+            {navIcon: FaTwitter, href: "#"},
+            {navIcon: FaInstagram, href: "#"},
+            {navIcon: FaLinkedin , href: "#"},
+        ]
+    },
+    {
+        image: desmond,
+        header: "Desmond Sesugh",
+        subText:"Front-End Developer @Company",
+        colorChange: true,
+        social:[
+            {navIcon: FaFacebook, href: "#"},
+            {navIcon: FaTwitter, href: "#"},
+            {navIcon: FaInstagram, href: "#"},
+            {navIcon: FaLinkedin , href: "#"},
+        ]
+    }
 ]

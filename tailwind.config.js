@@ -19,8 +19,12 @@ export default {
         },
         grayText: {
           10: "#E5E5E5",
-          20: "#6C757D"
+          20: "#6C757D",
+          30: "#6D6E76",
         },
+        LightGrey: "#F4F4F4",
+        LightYellow: "#FBF6EA",
+        lightDark:"#232536",
         darkText: "#495057",
         footerBg: {
           10: "#343A40",
